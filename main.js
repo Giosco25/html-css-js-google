@@ -1,8 +1,8 @@
 $(document).ready(function() {
 
     $('.link-icon > li > i').click(function(){
-        console.log('click');
-        var menu_icona = $(this).next('.dropdown').show();
+        // console.log('click');
+        var menu_icona = $(this).next('.dropdown');
         console.log(menu_icona);
 
     if (menu_icona.is(':visible')) {
