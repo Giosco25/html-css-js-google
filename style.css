@@ -54,6 +54,9 @@ nav{
     color: white;
     background-color: #4285f4;
 }
+.dropdown{
+    display: none;
+}
 /*main*/
 main{
     height: calc(100vh - 145px);
